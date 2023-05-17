@@ -12,7 +12,7 @@ func _init(modLoader = ModLoader):
 	ext_dir = dir + "extensions/"
 
 	# Add extensions
-	modLoader.install_script_extension(ext_dir + "run_data.gd")
+	modLoader.install_script_extension(ext_dir + "singletons/run_data.gd")
 
 
 func _ready():
